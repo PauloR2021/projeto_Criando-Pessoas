@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Phone",
+  "Type": "Element",
+  "Id": "Pqkr4Ufwa0G3oP2jj1slaw",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/Pqkr4Ufwa0G3oP2jj1slaw",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/VaWo-H9aRUeppCc_BMYcZQ",
+  "Created": "2025-04-27T17:17:24.4419423Z",
+  "Updated": "2025-04-27T17:17:24.4419423Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

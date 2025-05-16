@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="PR_Criando_Pessoas" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PR_Criando_Pessoas_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="PR_Criando_Pessoas" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="PR_Criando_Pessoas_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -66,11 +66,44 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">275,35</av:Point>
           <av:Size x:Key="ShapeSize">50,50</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">275,60 245,60 245,69 180,69</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
-        <x:Null />
+        <x:Reference>__ReferenceID0</x:Reference>
       </Flowchart.StartNode>
+      <FlowStep x:Name="__ReferenceID0">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">70,34</av:Point>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,270" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1882fb8b-0bb8-49e7-b2c1-78752116a12c" Version="V2">
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,92.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="JUGj5tmGFEOmxMnjfKqrmw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASJSURBVGhD7ZptaxxVFMf3G/gNJK0PlUqptcUHfKGYCkVFFJ9RrApafOUDrb5QfFEQQQS1UrRu0hiTJjGNDSWNTUmlTdTY0Jo2qW0N2q42kWjTzMzO7M7MzuzOkf+Ece+dOztzN3mxWdkDf1j2zj1zfnfOPecuO6lUKpVavUe55tr01WebWpSxplbFbGpRaEVqMbYxxIqYEbsf/KoWZXdTWrGFCStVacVGzD6Ev/L1FHygtGIj9pSfNuHB+tFYakXnfJJaFRNPQByoIzUAaq0GQK3VAKi1BIA7ujR67ViO3hot664eTZgY1sMHdW7O1iGD1rQptPZLlV45anBjD/ZnhflhPRLy9+qxHG3apwrXCQDPHdZJtT1i7UjGoXVfiZNZtZy1uTmjMw5t6FBpfYdK3112+LFZR5jP6sY2hU7MudycS1qRbu8SF1IKIO94tH0kR6sibhaoEsDqVoU+PGVSkXHpFClyNQNtOZCluVyJdUc903bk/aUAYBP/uHRnt7gCgSoBYOyZb3VasHifb/+QF3wEenM0R6Zbvh6fnhrUhesgaYCSR7T7jCU4CBQHgDS6sFDkx2ddun6v6GdNm0qd520/6MAy2SLdEHEtJA0As1yPnjwUvRJxANAXUxY3/pdRouY+cTPf1qXR1DwP+8lE5YWrCgA2Ne/SrZ1i/iYBPNCf9Z9iYDnHo9eP5wQ/Dx3MUoGJH6l0f0zVqhrALnr0/rgpPNIkAGzmc1fLlQV32PuL5Vcc1s+u0ybnZ3zOpY0xG14KgN1QsMt6ie7u5Td0EgD03jgf3Km/Xdq0j/eT0crL73lEn01akXslkBTArgmTtNB3/b8VuKcgA7C5L0t6oewnj/Q4UE4PNDjWsgWPXh42hKBZSQFsO2pQ+qxFLlOaUdffYHJYBmBDp0rfz/JN7YOT5n/jn0/yGx3NC5s6HCMrKYCtQ7qfMn/ofHW4qBXp3v2LN5ABuK5VoU9PW9xmPr9Q9MfWtqv+Z9Z6fo1uXksCwBjOSE7oKaSnFjeiDAD0whFD8N/cp9HjAzrNm2XnyP9KJZtVVQCoJL3TfJO5ki/RE4d0aYCNnSr9robrvEk7T+SpwDwapE+40kWpKgDonl6NphU+gDNXXGo/JweAlECnZe2iVqLDmQL33ccxzYtV1QB4Cu+O5cliT2dEQpWqBAA9NqD7KRIYFr6a5sWqagAI1WRkhq8mYYsDQF1HAahkOEoj1cLzorQkAGhzn+bX8UoWBwB99DNfMgOTaV6slgwA7fwpz1Ul1pIAkCLhDg9D83opoXmxWhYAUun4jMNVpcCSAHC+wTknbDLNi9WyAFBRXoyo67AkAKTInklLgO+WaF6slgUAoSp1X7C57gobvFRI/B29bdjwUyYw+EBPCV8Xp2UDQLd0qPT1dME/48MMx6MdIzkfLnwtK1Sa4T8Xqxmq8lDGkd68gQQAnEma92fpvm/Kurk9fiWDeY8O6PTOj3l6elCnm9qS50CAwPHi+SEj8odSkgSAelMDoNZqANRaDYBa63/xN2t9/9Fd968a1P3LHvX+us2/fskmgFl1nbIAAAAASUVORK5CYII=" InformativeScreenshot="d30acfebc265b592e27c11cf231d8396.jpg" Reference="wAAmr7HV30e8TWX1UhH6NA/46hkuU_oZkupxnj8yb0Bsg" Selector="&lt;html app='chrome.exe' title='Gerador de Pessoas - Gerador NV' /&gt;" Url="https://geradornv.com.br/gerador-pessoas/" Version="V2" />
+          </uix:NApplicationCard.TargetApp>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </uix:NApplicationCard>
+      </FlowStep>
     </Flowchart>
   </Sequence>
 </Activity>

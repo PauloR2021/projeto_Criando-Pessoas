@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Generate a Random Name - Fake Name Gen",
+  "Type": "Screen",
+  "Id": "VaWo-H9aRUeppCc_BMYcZQ",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/VaWo-H9aRUeppCc_BMYcZQ",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/gaHjhTfKPU-Y2u3vteUtJA",
+  "Created": "2025-04-27T17:05:08.5511856Z",
+  "Updated": "2025-04-27T17:05:08.5511856Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

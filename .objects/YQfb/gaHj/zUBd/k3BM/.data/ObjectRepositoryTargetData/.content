@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-G6DkOjLWEijgA0t8rUIHQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com/gen-random-us-us.php" CVScreenId="12b6779e-75f4-40f6-9848-ade94f5a2e68" CvTextArea="701, 588, 211, 25" CvTextArgument="New York, NY 10036" CvType="Text" DesignTimeRectangle="701, 588, 209, 25" DesignTimeScaleFactor="1.5" ElementType="Text" Guid="45ff1717-8e76-4cae-a950-079e18457fcb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="12b6779e-75f4-40f6-9848-ade94f5a2e68" CvTextArea="459, 387, 85, 24" CvTextArgument="Country" CvType="Text" DesignTimeRectangle="460, 384, 84, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Country' tag='LABEL' type='' class='' check:innerText='Country' /&gt;" Guid="43adf8b6-34fa-49e7-b0ac-12ff9508f786" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3af8894021ddf9b701654e72ece7ea56.png" xmlns="">0RQ1WHOMFSk-yNm9RsvNYHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

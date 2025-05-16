@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_KoysAdGzkeixcGFGIUZlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com/gen-random-us-us.php" CVScreenId="85e08f39-effc-46d4-a06b-e4cd0ddf1ec8" CvTextArea="977, 672, 133, 21" CvType="AnyWordGroup" DesignTimeRectangle="979, 668, 533, 30" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='DD' class='' /&gt;" Guid="5030257a-d716-4340-856b-fe43b4b42e6b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85e08f39-effc-46d4-a06b-e4cd0ddf1ec8" CvTextArea="699, 630, 85, 21" CvTextArgument="PHONE" CvType="Text" DesignTimeRectangle="702, 628, 810, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hh3' tag='H3' type='' aaname='Phone' check:innerText='PHONE' /&gt;" Guid="952e77f8-56ab-419f-84e9-2785952c96f2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9f332df90407b59b73e3cedbdeb1a3a1.png" xmlns="">02FvhHZGQIU247sJVxvAaag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

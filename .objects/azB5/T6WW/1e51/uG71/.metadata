@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DataTables has the abil…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "uG7138PZWUqHUmhLyIy0zQ",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/uG7138PZWUqHUmhLyIy0zQ",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/1e516A5uYkCSTiHSKdBCtQ",
+  "Created": "2025-04-26T16:01:59.2607646Z",
+  "Updated": "2025-04-26T16:01:59.2607646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Kenneth B. Duffey",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "sLhWkczZ6EePBS5-woAF3A",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/sLhWkczZ6EePBS5-woAF3A",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/zUBdYsFdT0C2P-3JoiCBNg",
+  "Created": "2025-04-28T10:21:34.8426377Z",
+  "Updated": "2025-04-28T10:21:34.8426377Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

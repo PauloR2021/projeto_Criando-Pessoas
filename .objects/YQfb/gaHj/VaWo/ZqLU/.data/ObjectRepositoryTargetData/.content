@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EgiLL3a6ZUOlO5TEiCY7TA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com/gen-random-us-us.php" DesignTimeRectangle="702, 779, 810, 56" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='adr' parentid='details' tag='DIV' type='' /&gt;" Guid="49dfc199-7fe2-4a89-b2a2-ff439d06023f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e3b618b3-8392-42c1-9d41-8164f8761b9a" CvTextArea="429, 434, 483, 30" CvTextArgument="Your Randomly Generated Identity" CvType="Text" DesignTimeRectangle="432, 432, 1321, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='' aaname='Your Randomly Generated Identity' check:innerText='Your Randomly Generated Identity' /&gt;" Guid="836d6d69-456b-41c0-9f37-7a8bf5259dac" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="664d0a11e5835b8a4d26402136188a4e.png" xmlns="">0yXsBuaSEZESB8qrGQ9me5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

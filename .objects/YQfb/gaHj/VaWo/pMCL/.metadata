@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Country code",
+  "Type": "Element",
+  "Id": "pMCLw321lEWv4QBY-OQ-CQ",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/pMCLw321lEWv4QBY-OQ-CQ",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/VaWo-H9aRUeppCc_BMYcZQ",
+  "Created": "2025-04-27T17:18:07.9595686Z",
+  "Updated": "2025-04-27T17:18:07.9595686Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

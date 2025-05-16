@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome DataTables example - Ajax sourced data(1)",
+  "Type": "Screen",
+  "Id": "fwaZ2H3zs0iLSaK5wshyVA",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/fwaZ2H3zs0iLSaK5wshyVA",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/T6WWnb0jFEmwyKaaUoMOBw",
+  "Created": "2025-04-26T15:06:19.2876564Z",
+  "Updated": "2025-04-26T15:06:19.2876564Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

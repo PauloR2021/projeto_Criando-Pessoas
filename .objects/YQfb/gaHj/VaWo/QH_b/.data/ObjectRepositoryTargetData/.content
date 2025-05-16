@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RFBplVr7J0COEbWwLzF--A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com/gen-random-us-us.php" CVScreenId="e4fc853f-d2dd-4c15-99a9-c665fa5f3833" CvTextArea="699, 738, 159, 28" CvType="AnyWordGroup" DesignTimeRectangle="702, 737, 810, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='' /&gt;" Guid="4c360c84-2efa-4d96-ad3a-029f0d20e2d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e4fc853f-d2dd-4c15-99a9-c665fa5f3833" CvElementArea="707, 311, 231, 57" CvTextArea="729, 327, 189, 25" CvTextArgument="Smiley Generator" CvType="Button" DesignTimeRectangle="710, 313, 227, 54" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Smiley Generator' tag='A' type='' class='' check:innerText='Smiley Generator' /&gt;" Guid="ae81a556-d68b-48cd-bee0-67de101108af" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="edf77078d5ebd670fb91310158a55890.png" xmlns="">03r0pXxj3TkC7aV_e4k_grg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

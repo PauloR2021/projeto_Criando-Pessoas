@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g4s8pnHpCUO4nGGKA5yh0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="datatables.net/examples/data_sources/ajax.html" DesignTimeRectangle="481, 721, 634, 133" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='' aaname='DataTables has the ability to read data from virtually any JSON data source that can be obtained by Ajax. This can be done, in its most simple form, by &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;setting the  option to the &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;address of the JSON data source.' check:innerText='DataTables has the ability to read data from virtually any JSON data source that can be obtained by' /&gt;" Guid="a2702f82-fbb0-4872-8b6d-d33d0294b0be" ScopeSelectorArgument="&lt;html app='chrome.exe' title='DataTables example - Ajax sourced data' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="33eed09f-f839-4f22-84c5-5c0f0a0b8218" CvElementArea="121, 327, 652, 105" CvTextArea="363, 365, 171, 33" CvTextArgument="DataTables" CvType="Button" DesignTimeRectangle="126, 342, 646, 75" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='DataTables &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Advanced interaction &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;features for your tables. &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' tag='A' type='' class='' check:innerText='DataTables' /&gt;" Guid="35a1ff30-91b3-4e0b-a93f-84a26d177d6b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dd6a2316ecb93ce6852574f9c7736bba.png" xmlns="">0NsuILFui6kmB7ljfkx_D-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

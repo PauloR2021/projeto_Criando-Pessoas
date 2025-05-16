@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Smiley Generator",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QH_bVgXkxECLeMq1RGCrAw",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/QH_bVgXkxECLeMq1RGCrAw",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/VaWo-H9aRUeppCc_BMYcZQ",
+  "Created": "2025-04-27T17:09:34.2881541Z",
+  "Updated": "2025-04-27T17:09:34.2881541Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

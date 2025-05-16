@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Get Emprego",
+  "Type": "Element",
+  "Id": "9F-vsvFxCEekaKMJgC0N7g",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/9F-vsvFxCEekaKMJgC0N7g",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/zUBdYsFdT0C2P-3JoiCBNg",
+  "Created": "2025-04-29T10:15:47.9045762Z",
+  "Updated": "2025-04-29T10:15:47.9045762Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

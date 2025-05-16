@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Get UF",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "k3BM7z5sTE6_E81fcqLigA",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/k3BM7z5sTE6_E81fcqLigA",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/zUBdYsFdT0C2P-3JoiCBNg",
+  "Created": "2025-04-28T10:29:00.6674029Z",
+  "Updated": "2025-04-28T10:29:00.6674029Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
