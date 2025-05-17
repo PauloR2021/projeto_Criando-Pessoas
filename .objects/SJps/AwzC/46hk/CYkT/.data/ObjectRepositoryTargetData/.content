@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NbfEa9poP06vC71XBCUGCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="geradornv.com.br/gerador-pessoas" CVScreenId="a8022078-85fb-4522-9456-c829c27843f5" CvTextArea="1005, 624, 144, 21" CvTextArgument="Dados pessoais" CvType="Text" DesignTimeRectangle="495, 621, 1170, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Dados pessoais' parentid='main-wrapper' tag='DIV' type='' class='nv-separator-hr m-b-8' check:innerText='Dados pessoais' /&gt;" Guid="a988bd91-876c-450e-ab27-39120afe8a4b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gerador de Pessoas - Gerador NV' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a8022078-85fb-4522-9456-c829c27843f5" CvTextArea="492, 372, 930, 19" CvTextArgument="Clique no botão abaixo para gerar dados completos de uma pessoa. Você pode utilizar O filtro para personalizar os dados gerados." CvType="Text" DesignTimeRectangle="495, 369, 1170, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='text-muted nv-paragraph-subtitle-feature m-b-15' aaname='Clique no botão abaixo para gerar dados completos de uma pessoa. Você pode utilizar o filtro para personalizar os dados gerados.' check:innerText='Clique no botão abaixo para gerar dados completos de uma pessoa. Você pode utilizar o filtro para' /&gt;" Guid="e532021f-2b45-4d86-b125-4b45102278cc" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ca2e468f20fcc8a87252a6bbfe1768b4.png" xmlns="">0rjfJ9KjzKkm3c6PZ9uayqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Tela Apareceu",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CYkTxPudF0u6nh1PysSQwg",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/CYkTxPudF0u6nh1PysSQwg",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/46hkuU_oZkupxnj8yb0Bsg",
+  "Created": "2025-05-17T14:06:00.2271436Z",
+  "Updated": "2025-05-17T14:06:00.2271436Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

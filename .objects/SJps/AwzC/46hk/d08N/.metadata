@@ -1,0 +1,14 @@
+﻿{
+  "Name": "CPF",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "d08N9IXjFEKBJBj4u_jG2g",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/d08N9IXjFEKBJBj4u_jG2g",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/46hkuU_oZkupxnj8yb0Bsg",
+  "Created": "2025-05-17T13:57:23.5194554Z",
+  "Updated": "2025-05-17T13:57:23.5194554Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fYxX3QGAjkmpMmSR-jRFRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="geradornv.com.br/gerador-pessoas" CVScreenId="8c00d2d7-ea1a-45b1-9973-4ebe2b318e4b" CvElementArea="467, 488, 883, 70" CvType="InputBox" DesignTimeRectangle="469, 491, 879, 66" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='nv-field-name' tag='LABEL' type='' class='nv-label-functionality input-lg m-b-20' /&gt;" Guid="4dc889f0-ff64-4b00-8861-1687ec50b81f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gerador de Pessoas - Gerador NV' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8c00d2d7-ea1a-45b1-9973-4ebe2b318e4b" CvTextArea="467, 438, 66, 21" CvTextArgument="Nome" CvType="Text" DesignTimeRectangle="469, 431, 879, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text-muted' tag='P' type='' aaname='Nome' check:innerText='Nome' /&gt;" Guid="59435b52-75d0-42a2-ba1b-a5fc404c8d5a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0234a54906b92929f7c23884088a8898.png" xmlns="">0n8yjxk7ig0mwcPuILjXwDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
