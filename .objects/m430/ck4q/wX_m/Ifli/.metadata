@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Consultar Pessoas",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "IfliVkvKt0K8zbIhk0mOAw",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/IfliVkvKt0K8zbIhk0mOAw",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/wX_mBfBYxEGWdc5ILjPJtw",
+  "Created": "2025-05-21T20:47:08.3666374Z",
+  "Updated": "2025-05-21T20:47:08.3666374Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

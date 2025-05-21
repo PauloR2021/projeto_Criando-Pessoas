@@ -118,7 +118,7 @@
             <av:PointCollection x:Key="ConnectorLocation">170,195 170,225</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Automação no Navegador" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1882fb8b-0bb8-49e7-b2c1-78752116a12c" Version="V2">
+        <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Automação no Navegador" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="1882fb8b-0bb8-49e7-b2c1-78752116a12c" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -233,7 +233,7 @@
                                   <av:Size x:Key="ShapeSize">110,70</av:Size>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <Flowchart DisplayName="Scraping Dos Dados" sap:VirtualizedContainerService.HintSize="674.6666666666666,474.04" sap2010:WorkflowViewState.IdRef="Flowchart_9">
+                              <Flowchart DisplayName="Scraping Dos Dados" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Flowchart_9">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -252,7 +252,7 @@
                                       <av:Size x:Key="ShapeSize">110,70</av:Size>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_12">
+                                  <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_12">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -268,7 +268,7 @@
                                       <av:PointCollection x:Key="ConnectorLocation">500,255 500,285 200,285 200,315</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_13">
+                                  <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_13">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -343,7 +343,7 @@
                                       <av:PointCollection x:Key="ConnectorLocation">255,220 285,220</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_14">
+                                  <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_14">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -390,7 +390,7 @@
                                       <av:PointCollection x:Key="ConnectorLocation">415,70 465,70</av:PointCollection>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_15">
+                                  <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Delay_15">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -589,12 +589,12 @@
                     <av:PointCollection x:Key="ConnectorLocation">170,395 170,445</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign DisplayName="Query Inserir Dados SQL" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_9">
+                <Assign DisplayName="Query Inserir Dados SQL" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_9">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[sQuery]</OutArgument>
                   </Assign.To>
                   <Assign.Value>
-                    <InArgument x:TypeArguments="x:String">["INSERT Into PROJETOS_RPA.dbo.CRIAR_PESSOA_JAVA (NOME, SOBRENOME, IDADE, CPF,STATUS) VALUES('"+sPrimeiroNome+"', '"+sSegundoNome+"', "+iIdade.ToString+", '"+sCpf+"',1);"]</InArgument>
+                    <InArgument x:TypeArguments="x:String">["INSERT Into PROJETOS_RPA.dbo.CRIAR_PESSOA_JAVA (NOME, SOBRENOME, IDADE, CPF,STATUS) VALUES('"+sPrimeiroNome+"', '"+sSegundoNome+"', "+iIdade.ToString+", '"+sCpf+"',0);"]</InArgument>
                   </Assign.Value>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -642,7 +642,7 @@
                                 <av:PointCollection x:Key="ConnectorLocation">180,645 180,695</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign DisplayName="Query Log" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_10">
+                            <Assign DisplayName="Query Log" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_10">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[sQuery]</OutArgument>
                               </Assign.To>
@@ -776,7 +776,7 @@
             <av:PointCollection x:Key="ConnectorLocation">170,95 170,125</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Iniciando Automação&quot;]">
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Iniciando Automação de Scraping de Dados&quot;]">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
