@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BZi0enWe10ms002IDE0naQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/pessoas" CVScreenId="86204ed2-1d33-46b0-b61e-f4187299a56d" CvElementArea="658, 859, 603, 67" CvTextArea="917, 878, 84, 25" CvTextArgument="Salvar" CvType="Button" DesignTimeRectangle="660, 860, 600, 64" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='' aaname='Salvar' check:innerText='Salvar' /&gt;" Guid="57df589f-2d22-4923-8a0d-ff27286f6053" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cadastro de Pessoas' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="86204ed2-1d33-46b0-b61e-f4187299a56d" CvElementArea="658, 774, 643, 59" CvType="InputBox" DesignTimeRectangle="660, 775, 642, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='idade' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='idade' tag='INPUT' type='number' class='centralizado' aaname='' /&gt;" Guid="853f5837-cded-449a-a7c0-326d9fbec419" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4d625ef7185ef38b26e25eadfc41332c.png" xmlns="">06hbS6mwPeECd2vODylJh4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

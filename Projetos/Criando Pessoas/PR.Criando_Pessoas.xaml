@@ -84,7 +84,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart DisplayName="PR.Main" sap:VirtualizedContainerService.HintSize="674.6666666666666,474.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart DisplayName="PR.Main" sap:VirtualizedContainerService.HintSize="674.6666666666666,478.70666666666665" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Name="sNome" />
         <Variable x:TypeArguments="x:String" Name="sDataNascimento" />
@@ -589,12 +589,12 @@
                     <av:PointCollection x:Key="ConnectorLocation">170,395 170,445</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_9">
+                <Assign DisplayName="Query Inserir Dados SQL" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_9">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[sQuery]</OutArgument>
                   </Assign.To>
                   <Assign.Value>
-                    <InArgument x:TypeArguments="x:String">["INSERT Into PROJETOS_RPA.dbo.CRIAR_PESSOA_JAVA (NOME, SOBRENOME, IDADE, CPF) VALUES('"+sPrimeiroNome+"', '"+sSegundoNome+"', "+iIdade.ToString+", '"+sCpf+"');"]</InArgument>
+                    <InArgument x:TypeArguments="x:String">["INSERT Into PROJETOS_RPA.dbo.CRIAR_PESSOA_JAVA (NOME, SOBRENOME, IDADE, CPF,STATUS) VALUES('"+sPrimeiroNome+"', '"+sSegundoNome+"', "+iIdade.ToString+", '"+sCpf+"',1);"]</InArgument>
                   </Assign.Value>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -611,7 +611,7 @@
                         <av:PointCollection x:Key="ConnectorLocation">225,480 360,480 360,580</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PR.Conexao_SQL - Invoke Workflow File (Projetos\Criando Pessoas\PR.Conexao_SQL.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Dados Tabela Pessoas Java" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InArgument x:TypeArguments="x:String" x:Key="sQuery">[sQuery]</InArgument>
                         <OutArgument x:TypeArguments="x:Boolean" x:Key="bQueryExecutou">[bQueryExecutou]</OutArgument>
@@ -623,10 +623,7 @@
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
                     <FlowStep.Next>
-                      <FlowDecision x:Name="__ReferenceID19" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
-                        <FlowDecision.Condition>
-                          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="bQueryExecutou = True" />
-                        </FlowDecision.Condition>
+                      <FlowDecision x:Name="__ReferenceID19" Condition="[bQueryExecutou = True]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -645,7 +642,7 @@
                                 <av:PointCollection x:Key="ConnectorLocation">180,645 180,695</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_10">
+                            <Assign DisplayName="Query Log" sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_10">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[sQuery]</OutArgument>
                               </Assign.To>
@@ -667,7 +664,7 @@
                                     <av:PointCollection x:Key="ConnectorLocation">180,765 180,815</av:PointCollection>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PR.Conexao_SQL - Invoke Workflow File (Projetos\Criando Pessoas\PR.Conexao_SQL.xaml)" sap:VirtualizedContainerService.HintSize="336,145.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Log Concluido" sap:VirtualizedContainerService.HintSize="336,145.33333333333334" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <InArgument x:TypeArguments="x:String" x:Key="sQuery">[sQuery]</InArgument>
                                     <OutArgument x:TypeArguments="x:Boolean" x:Key="bQueryExecutou">[bQueryExecutou]</OutArgument>
@@ -708,7 +705,7 @@
                                 <av:PointCollection x:Key="ConnectorLocation">530,645 530,695</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_11">
+                            <Assign DisplayName="Query Log" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Assign_11">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[sQuery]</OutArgument>
                               </Assign.To>
@@ -730,7 +727,7 @@
                                     <av:PointCollection x:Key="ConnectorLocation">530,765 530,815</av:PointCollection>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PR.Conexao_SQL - Invoke Workflow File (Projetos\Criando Pessoas\PR.Conexao_SQL.xaml)" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Log Erro" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Projetos\Criando Pessoas\PR.Conexao_SQL.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <InArgument x:TypeArguments="x:String" x:Key="sQuery">[sQuery]</InArgument>
                                     <OutArgument x:TypeArguments="x:Boolean" x:Key="bQueryExecutou">[bQueryExecutou]</OutArgument>

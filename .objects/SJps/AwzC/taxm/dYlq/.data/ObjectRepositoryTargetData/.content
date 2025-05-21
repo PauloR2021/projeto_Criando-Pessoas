@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xBbIU-D6uEuUJMoUoTIpoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="ba94ac52-0e8f-42e0-81f2-b43f48399e45" CvElementArea="744, 291, 277, 59" CvTextArea="771, 308, 219, 22" CvTextArgument="Cadastrar Pessoas" CvType="Button" DesignTimeRectangle="746, 294, 274, 52" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Cadastrar Pessoas' tag='A' type='' class='' check:innerText='Cadastrar Pessoas' /&gt;" Guid="c7babb26-44f9-4e9f-be6c-dc3d2a781897" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="11, 270, 1897, 100" ElementType="Container" FullSelectorArgument="&lt;webctrl tag='HEADER' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='HEADER' type='' class='' aaname='                       ' check:innerText='Início&amp;#xA;Cadastrar Pessoas&amp;#xA;Consultar Pessoas' /&gt;" Guid="af127874-7e6d-496b-af94-4af5eba4a6b7" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c4c34ede10f741fafedb27333f595b1.png" xmlns="">0VROGyb7L2UG0MWgq5SAwrA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

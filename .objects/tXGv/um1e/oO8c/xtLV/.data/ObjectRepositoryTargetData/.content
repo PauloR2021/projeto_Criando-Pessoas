@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VTiuKVLG-0uXX4aFyyVQUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost/pessoas" CVScreenId="86204ed2-1d33-46b0-b61e-f4187299a56d" CvElementArea="658, 774, 643, 59" CvType="InputBox" DesignTimeRectangle="660, 775, 642, 56" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='idade' tag='INPUT' type='number' class='centralizado' aaname='' /&gt;" Guid="b35ad513-4856-4883-b303-dd5eb9bca5ba" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Cadastro de Pessoas' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="86204ed2-1d33-46b0-b61e-f4187299a56d" CvTextArea="657, 740, 69, 21" CvTextArgument="Idade:" CvType="Text" DesignTimeRectangle="660, 733, 600, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Idade:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Idade:' tag='LABEL' type='' class='' check:innerText='Idade:' /&gt;" Guid="f3d21e84-36a7-494d-9757-97b421c0cc90" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8c2618c3dcb3390ea33fadd3792ed9c3.png" xmlns="">0sngcVOJt5U6h7rbndBV1IA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

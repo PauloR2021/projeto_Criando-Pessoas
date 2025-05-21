@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Abrindo LocalHost",
+  "Type": "App",
+  "Id": "INqdVDoLwkyXtgl7ZhXbig",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/INqdVDoLwkyXtgl7ZhXbig",
+  "Created": "2025-05-19T10:51:24.436806Z",
+  "Updated": "2025-05-19T10:51:24.436806Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Cadastro de Pessoas",
+  "Type": "Screen",
+  "Id": "oO8cgoXhi0q3C1lcyNtNWA",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/oO8cgoXhi0q3C1lcyNtNWA",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/um1ejIp7TE-MfHtQdbbnCw",
+  "Created": "2025-05-20T10:45:04.8144077Z",
+  "Updated": "2025-05-20T10:45:04.8144077Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Abrindo LocalHost",
+  "Type": "Screen",
+  "Id": "i1mimOdEaUGyJrjqf-eqTA",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/i1mimOdEaUGyJrjqf-eqTA",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/Jwxf7EZtZ0qxuGJLBW-S1Q",
+  "Created": "2025-05-19T10:51:24.5066111Z",
+  "Updated": "2025-05-19T10:51:24.5066111Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

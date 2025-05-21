@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Idade",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xtLVODpnqEiKCS1hhty2rA",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/xtLVODpnqEiKCS1hhty2rA",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/oO8cgoXhi0q3C1lcyNtNWA",
+  "Created": "2025-05-20T10:50:33.3523604Z",
+  "Updated": "2025-05-20T10:50:33.3523604Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

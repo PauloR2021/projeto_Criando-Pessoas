@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cadastrar Pessoas",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dYlqOHhCU0WNHNZKxXQBdw",
+  "Reference": "wAAmr7HV30e8TWX1UhH6NA/dYlqOHhCU0WNHNZKxXQBdw",
+  "ParentRef": "wAAmr7HV30e8TWX1UhH6NA/taxmxOmVV0qIJvxwpA_DUA",
+  "Created": "2025-05-20T10:44:09.8571831Z",
+  "Updated": "2025-05-20T10:44:09.8571831Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

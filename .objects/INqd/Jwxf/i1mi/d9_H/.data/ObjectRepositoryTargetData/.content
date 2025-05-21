@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2frq7lor1UmzKcqTPnFSig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="localhost" CVScreenId="b1f245f4-9e97-4385-ba0d-387110c3ac3d" CvTextArea="359, 422, 560, 30" CvTextArgument="Projeto desenvolvido em Java com Spring Boot." CvType="Text" DesignTimeRectangle="360, 414, 1200, 43" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='Projeto desenvolvido em Java com Spring Boot.' check:innerText='Projeto desenvolvido em Java com Spring Boot.' /&gt;" Guid="c2905fed-19cf-4f5e-b200-1bc78758a5b1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Home' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="11, 192, 1897, 100" ElementType="Container" FullSelectorArgument="&lt;webctrl tag='HEADER' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='HEADER' type='' class='' aaname='                       ' check:innerText='Início&amp;#xA;Cadastrar Pessoas&amp;#xA;Consultar Pessoas' /&gt;" Guid="b9e1de0e-c2bb-4051-bd3c-375264bf4a97" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dbfb0fb61502a8ad4e15489993d80c44.png" xmlns="">08N_oDCfVFkmo1exVIlhk0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
